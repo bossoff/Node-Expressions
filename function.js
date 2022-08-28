@@ -14,3 +14,13 @@ function sayMyNameByGreetins(fn){
 
 sayMyNameByGreetins(greetings);
 
+// Function Expression
+
+let greetMe = function(){
+    console.log('Hi! Bossoff');
+}
+
+greetMe(); //Invoke it here
+
+// We still have another  Firstclass function (LoL)
+sayMyNameByGreetins(greetMe);
