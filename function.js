@@ -24,3 +24,9 @@ greetMe(); //Invoke it here
 
 // We still have another  Firstclass function (LoL)
 sayMyNameByGreetins(greetMe);
+
+// Lets use Function Expression on the fly
+
+sayMyNameByGreetins(function(){
+    console.log("Hello BadBoi Bossoff");
+});
