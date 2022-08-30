@@ -23,5 +23,5 @@ console.log(firstname);
     console.log(firstname);
     console.log(lastname);
     
-}('Kings')//invoke);
+}('Kings'));//invoke
 
