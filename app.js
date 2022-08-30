@@ -17,3 +17,8 @@ function changeObj(d){
     d.prop1 = function() {};
     d.prop2 = {};
 }
+
+c = {};
+c.prop1;
+changeObj(c);
+console.log(c);
