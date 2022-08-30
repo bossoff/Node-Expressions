@@ -1,7 +1,7 @@
 
-const english = reqiure('./english');
-const spanish = reqiure('./spanish');
-const yoruba = reqiure('./yoruba');
+const english = require('./english');
+const spanish = require('./spanish');
+const yoruba = require('./yoruba');
 
 module.exports = {
     english: english,
