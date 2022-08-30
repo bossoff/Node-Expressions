@@ -19,3 +19,8 @@
 const greet = require('./greeting');
 
 greet.greet();
+
+
+// var Greet4 = require('./greeting');
+// var grtr = new Greet4();
+// grtr.greet();
