@@ -26,17 +26,6 @@ Install dependencies
 
 > Create your database using pgAdmin, add the configuration in the server directory under `database/config/config.json`
 
-Run database migration
-
-```bash
- npx sequelize-cli db:migrate
-```
-
-Start Project
-```bash
- npm run dev
-```
-
 ## Author
 
 [@bossoff](https://www.github.com/bossoff)
