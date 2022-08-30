@@ -1,42 +1,19 @@
-var greetMe = require('./greet');
 
-greetMe();
 
-// Building Object 
-var person = {
-    'firstname': "Bossoff",
-    'lastname': "Rajih",
-    'greeting': function(){
-        console.log("Hello "+this.firstname+" "+this.lastname);
-    }
+// Pass by value
+
+function change(b){
+    b = 10;
 }
 
-person.greeting();
+let a = 1;
 
+change(a);
 
+console.log(a);
 
-// Object Property and prototype
-
-function Person(firstname, lastname) {
-	
-	this.firstname = firstname;
-	this.lastname = lastname;
-	
+//  Pass by refrence
+function changeObj(d){
+    d.prop1 = function() {};
+    d.prop2 = {};
 }
-
-Person.prototype.greet = function() {
-	console.log('Hello, ' + this.firstname + ' ' + this.lastname);
-};
-
-var john = new Person('John', 'Doe');
-john.greet();
-
-var jane = new Person('Jane', 'Doe');
-
-jane.greet();
-
-console.log(john.__proto__);
-
-console.log(jane.__proto__);
-
-console.log(john.__proto__ === jane.__proto__);
