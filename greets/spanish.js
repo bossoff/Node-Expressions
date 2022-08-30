@@ -1,7 +1,8 @@
+const greetings = require('./greetings');
 
 let greet = function () {
 
-    console.log("Hola");
+    console.log(greetings.spa);
     
 }
 
