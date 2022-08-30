@@ -1,9 +1,6 @@
 
 // Lets do more reqiure function
 
-const greet = require('./greets');
+const greet = require('./greeting').greet;
 
-greet.english();
-greet.yoruba();
-
-greet.spanish();
+greet();
