@@ -24,11 +24,23 @@
 
 // greeting 4
 
-function Greetr() {
-	this.greeting = 'Hello world!!!';
-	this.greet = function() {
-		console.log(this.greeting);
-	}
+// function Greetr() {
+// 	this.greeting = 'Hello world!!!';
+// 	this.greet = function() {
+// 		console.log(this.greeting);
+// 	}
+// }
+
+// module.exports = Greetr;
+
+// greeting 5
+
+var greeting = 'Hello world!!!!';
+
+function greet() {
+	console.log(greeting);
 }
 
-module.exports = Greetr;
+module.exports = {
+	greet: greet
+}
