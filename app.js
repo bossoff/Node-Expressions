@@ -1,24 +1,27 @@
 
+// function expression
 
-// Pass by value
+(function () {
 
-function change(b){
-    b = 10;
-}
+    let firstname = "Raji";
 
-let a = 1;
+    console.log(firstname);
+    
+}());
 
-change(a);
+let firstname = "Bossoff";
 
-console.log(a);
+console.log(firstname);
 
-//  Pass by refrence
-function changeObj(d){
-    d.prop1 = function() {};
-    d.prop2 = {};
-}
 
-c = {};
-c.prop1;
-changeObj(c);
-console.log(c);
+// function expression by putting and accessing value
+
+(function (lastname) {
+
+    let firstname = "Raji";
+
+    console.log(firstname);
+    console.log(lastname);
+    
+}('Kings'));
+
