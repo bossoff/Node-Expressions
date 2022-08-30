@@ -1,5 +1,5 @@
 
-c
+// function expression
 
 (function () {
 
@@ -23,5 +23,5 @@ console.log(firstname);
     console.log(firstname);
     console.log(lastname);
     
-}('Kings'));
+}('Kings')//invoke);
 
